@@ -14,7 +14,9 @@ http://learn.adafruit.com/rgb-led-strips/current-draw has some nice pointers tha
 This means on our 10A power supply we get (10/0.6) 16.6 meters (55 feet or so) before we go out of spec for the power supply.
 
 At 30/LED per meter, we end up with 16.6*30 or roughly 500 LEDs at FULL brightness.  Any sort of pattern or dimming can extend 
-this pretty effectively, half power should be good for 1000 LEDs or our four strips...
+this pretty effectively, half power should be good for 1000 LEDs.  Our four strips are 5 meters each, or 20 meters and 600 LEDs.
+
+To make things safe at full power, we need to drop 4 meters, or 1 meter per strip and we should be ok.
 
 Short of using a computer PSU, this is is folks.
 
@@ -33,6 +35,6 @@ parts (channel)
 1x 74HC595 shift register
 1x 5meter led non-addressable strip (30/LED per meter)
 
-rough cost per channel: $25 
+rough cost per channel: $25
 
 Package cost (roughly) $200
