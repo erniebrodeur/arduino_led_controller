@@ -22,19 +22,18 @@ Short of using a computer PSU, this is is folks.
 
 parts (overall)
 ===============
-1x adafruit minty (arduino in a can).
-1x 5v 10amp ps
+* 1x adafruit minty (arduino in a can).
+* 1x 5v 10amp ps
 
-rough cost: $50
+rough cost: $60
 
 parts (channel)
 ===============
-1x 6" rgb cable 
-1x rgb cabel->four pin connector
-3x N-channel power mosfet
-1x 74HC595 shift register
-1x 5meter led non-addressable strip (30/LED per meter)
+* 1x 6" rgb cable 
+* 1x rgb cabel->four pin connector
+* 3x N-channel power mosfet
+* 1x 74HC595 shift register
 
-rough cost per channel: $25
+rough cost per channel: $7 ($28 for all 4)
 
-Package cost (roughly) $200
+Total cost is roughly $88 sourced from adafruit. 
